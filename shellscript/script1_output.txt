@@ -1,0 +1,15 @@
+logname: no login name
+Currently logged user and his logname: 
+
+Current shell: /bin/bash
+
+Home directory: /home/nehamj
+
+Operating system type: x86_64
+
+Current path setting: /home/nehamj/bin:/home/nehamj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+
+Current working directory: /home/nehamj/College/uf/shellscript
+
+Currently logged number of users: nehamj
+
