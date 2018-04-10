@@ -1,0 +1,40 @@
+All currently available interfaces
+enp2s0    Link encap:Ethernet  HWaddr 40:b0:34:05:94:ab  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:1980 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1980 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:454676 (454.6 KB)  TX bytes:454676 (454.6 KB)
+
+wlo1      Link encap:Ethernet  HWaddr 3c:a0:67:a6:ed:a5  
+          inet addr:192.168.2.150  Bcast:192.168.3.255  Mask:255.255.252.0
+          inet6 addr: fe80::9ce7:2b04:e3fe:38f9/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:23763 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:15816 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:14007783 (14.0 MB)  TX bytes:2511626 (2.5 MB)
+
+
+Temporarily configuring the IP Address...
+[sudo] password for nehamj: 
+
+Configuring a default gateway...
+
+Verifying default gateway configuration...
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         192.168.0.8     0.0.0.0         UG    0      0        0 wlo1
+0.0.0.0         192.168.0.3     0.0.0.0         UG    600    0        0 wlo1
+169.254.0.0     0.0.0.0         255.255.0.0     U     1000   0        0 wlo1
+192.168.0.0     0.0.0.0         255.255.252.0   U     600    0        0 wlo1
+
