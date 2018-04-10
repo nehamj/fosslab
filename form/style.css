@@ -1,0 +1,30 @@
+        body{
+                background-color:purple;
+                text-align:center;
+            }
+
+        .box{
+                text-align:center;
+                width:40%;
+                padding: 2em;
+                margin-top:7em;
+                margin-left: 17em;
+                background-color:lightgray;
+                font-size:20px;
+            }
+
+        input[type=text]{
+            font-size:16px;
+            }
+
+        button{
+            border:none;
+            background-color:purple;
+            color:white;
+            padding:7px 15px;
+            text-align:center;
+            text-decoration:none;
+            display:inline-block;
+            font-size:18px;
+            }
+
