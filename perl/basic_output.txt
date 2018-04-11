@@ -1,0 +1,12 @@
+
+Example of scalar data type :20 ,Hello
+Example of arrays: John ,Patrick ,Mike
+$data{'John Paul'} = 45
+$data{'Lisa'} = 30
+$data{'Kumar'} = 40
+Basic operations on numbers 2 and 1:
+Sum=3 
+Sub=1 
+Mul=2 
+Div=2
+
